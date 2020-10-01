@@ -1,0 +1,70 @@
+*{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  }
+
+  .center{
+      background-color: dodgerblue;
+      text-decoration: ghostwhite;
+      border-style: solid;
+      border-width: small;
+      border-color: rgb(70, 68, 68);
+      border-radius: 6%;
+  }
+
+
+  .card_imgs{
+   display:block;
+   margin-left: auto;
+   margin-right:auto;
+   width: 95%;
+   height: 250px;
+   margin-top: 5px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+  }
+ 
+  
+  a{
+    color:dodgerblue;
+  }
+  
+  .gosocal {
+    font-size: larger;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .entertainment p, .dining p, .shopping p, .wellness p {
+      font-size: x-large;
+      margin-left: 10%;
+      margin-right: 10%;
+  } 
+  
+  .flex-container{
+      display: flex;
+      justify-content: center;
+  }
+
+  .title {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+  }
+  .card_size{
+     border-style: solid;
+      border-width: small;
+      border-color: rgb(70, 68, 68);
+      border-radius: 6%; 
+  }
+
+  .container{
+      background-color: aliceblue;
+  }
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }
+  

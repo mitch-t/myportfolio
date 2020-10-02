@@ -8,4 +8,5 @@ as Linkdin and github. This site is responsive to mobile users.
 
 https://mitch-t.github.io/myportfolio/
 
-https://github.com/mitch-t/myportfolio/blob/main/assets/Screenshot%20(62).png?raw=true
+![Screenshot (63)](https://user-images.githubusercontent.com/66184450/94889565-79e6a780-0431-11eb-8cab-08ccb90b8a1a.png)
+

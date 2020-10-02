@@ -7,3 +7,5 @@ apps that I have deployed. There are also links to my resume and my contact info
 as Linkdin and github. This site is responsive to mobile users.
 
 https://mitch-t.github.io/myportfolio/
+
+https://github.com/mitch-t/myportfolio/blob/main/assets/Screenshot%20(62).png?raw=true

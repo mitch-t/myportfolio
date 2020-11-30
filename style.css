@@ -5,7 +5,7 @@ nav {
 }
 
 body {
-  background-color: rgb(209, 214, 216);
+  background-color: rgb(227, 230, 231);
 }
 
 .header {
@@ -76,8 +76,8 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 60%;
-  width: 50%;
+  height: 35%;
+  width: 35%;
 }
 .contact {
   font-size: large;
@@ -93,4 +93,9 @@ p {
 }
 .card {
   background-color: #e5f1fd;
+}
+
+.skills {
+  text-align: center;
+  font-size: larger;
 }

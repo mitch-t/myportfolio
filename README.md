@@ -1,10 +1,10 @@
 # myportfolio
 
-This site contains two html docs that are linked together as well as 
-information about skills I can offer my future employer.
-The first page includes a dropdown menu that allows the user to access 
-apps that I have deployed. There are also links to my resume and my contact infomation, such
-as Linkdin and github. This site is responsive to mobile users.
+This site contains two html docs. The first page is an introduction page with my contact information.
+When the MY WORK button is clicked the user is
+directed to a html page that contains images of my work. When the work image is clicked
+you are redirected to the deployed page or github site.
+When my name is clicked the user will be redirected to my resume.  This site is responsive to mobile users.
 
 https://mitch-t.github.io/myportfolio/
 

@@ -10,4 +10,4 @@ https://mitch-t.github.io/myportfolio/
 
 ![Screenshot (63)](https://user-images.githubusercontent.com/66184450/94889565-79e6a780-0431-11eb-8cab-08ccb90b8a1a.png)
 
-![Screenshot (62)](https://user-images.githubusercontent.com/66184450/94889657-cf22b900-0431-11eb-9ed8-23d79da10f06.png)
+![Screenshot (134)](https://user-images.githubusercontent.com/66184450/100648652-14f6e300-32f6-11eb-8253-fcb3af52f85c.png)

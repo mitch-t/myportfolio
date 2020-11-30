@@ -8,6 +8,6 @@ When my name is clicked the user will be redirected to my resume.  This site is 
 
 https://mitch-t.github.io/myportfolio/
 
-![Screenshot (63)](https://user-images.githubusercontent.com/66184450/94889565-79e6a780-0431-11eb-8cab-08ccb90b8a1a.png)
+![Screenshot (135)](https://user-images.githubusercontent.com/66184450/100651210-fb579a80-32f9-11eb-9116-b542ae6b96e6.png)
 
 ![Screenshot (134)](https://user-images.githubusercontent.com/66184450/100648652-14f6e300-32f6-11eb-8253-fcb3af52f85c.png)

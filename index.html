@@ -1,136 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name ="viewport" content="width=device=width, intial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PortfolioHome</title>
+    <meta charset="utf-8">
 
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" type="text/css" href="style.css" />
- <style>
-    h2 {text-align: center;}
-    </style>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-
-  <div class="container">
-
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="https://github.com/mitch-t"><h1>Tom Mitchell</h1></a>
-      <img src="assets/Mypicbest.jpg" alt="website homepage screenshot" width="10%" height="3%"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-        <!-- Collapsible button -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-
-          <!-- The links of our navbar -->
-          <li class="nav-item active">
-            <a class="nav-link" href="assets/Resume-tech.pdf"><h3>Resume</h3><span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item active">
-            <a class="nav-link" href="samples.html"><h3>My Apps</h3><span class="sr-only">(current)</span></a>
-          </li>
-
-          <!-- a Dropdown menu -->
-          <li class="nav-item dropdown">
-
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <h3>GO TO!</h3>
-            </a>
-
-            <div class="dropdown-menu" aria-label ledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://mitch-t.github.io/SuggestSoCalapp/">SuggestSoCal App</a>
-              <a class="dropdown-item" href="https://mitch-t.github.io/weatherdash/">Weather Dashboard</a>
-              <a class="dropdown-item" href="https://mitch-t.github.io/pwgenerator/">Password Generator</a>
-              <a class="dropdown-item" href="https://mitch-t.github.io/Workday-Planner/">Workday Planner</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+  <header>
+    <nav>
+        <div class="nav-wrapper-lg dodgerblue darken-4 center">
+            <a href="assets/Resume-tech.pdf" class="title"></i>Tom Mitchell </a><i class="fas medium fa-folder-open"></i>
+        </div>
     </nav>
-</br>
-    <div class="container">
-
-      <div class= "row">
-
-        <div class="col s12 m6 l1">
-      
-          <div class ="col1">
-            <h2 class="center">About Me</h2>
-            <hr/>
-                 
-                  <p>I’m seeking a position as a junior developer within the scope of education. 
-                      Currently, I’m studying full stack web development at UCR extension. Graduated 
-                      in 2006 with a BA in business economics from Cal State San Bernardino. 
-                      I’ve worked as a teacher for the last eight years and have taught science 
-                      and history at the secondary level.</p> 
-                      
-                      <p>Over the years I’ve worked with teams 
-                      of teachers, parents, counselors, administrators and of course students. 
-                      Seeing students overcome obstacles and reach their goals is very rewarding. 
-                      It’s a great feeling to be thanked by a former student. Whether playing a team 
-                      sport, coaching a team sport, or working as a teacher; collaboration, communication, 
-                      organization, and time management have contributed to my success and to the success 
-                      of those around me.</p>
-                      
-                      <p>I approach problems analytically and as I acquire more knowledge 
-                      in web development and programming I seek to create more educational opportunities for 
-                      students of all ages. I hope to be an asset for your organization.
-         
-                    </p>
+</header>
+    <div class="extended-content-container">
+        <div class="row">
+            <div class="col s12 m8">
+                <div id="homecard" class="card">
+                    <div class="flex-container homecard_position">
+                      <h3 class="center">About Me</h3>
+                    </div>
+                    <div class="flex-container">
+                      <p>Seeking a position as a junior developer. Currently, studying full stack 
+                        web development at UCR extension. Have spend most of my career 
+                        in education working as a secondary teacher of history and science. I also have a 
+                        background in finance and graduated in 2006 from Cal State San Bernardino with a degree in Business
+                        Economics.
+                        </p> 
+                    
+                        <p>Over the last eight years I’ve worked with teams of teachers, parents, counselors, and
+                        administrators. 
+                        I approach problems analytically and would like to apply my newly acquired techinical skills
+                        in web development and programming to create more educational opportunities.
+                      </p>
+                    </div>
+                    <img class="responsive-img" id="img2" src="assets/project1Pic1.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div id="homecard" class="card">
+                      <h3 class="center">Contact Info</h3><ul>
+                        <hr/>
+                        <img class="responsive-img" id="img2" src="assets/Mypicthumb.jpg">
+                        <div class ="contact">
+                    <li><strong>Cell Number:</strong></br>(951) 710-7189</li>
+                    <hr/>
+                  <li><strong>Email:</strong> <a href="mailto:mitcht032@gmail.com">mitcht032@gmail.com</a></li>
+                    <hr/>
+                  <li><strong>Github:</strong> <a href="https://github.com/mitch-t">https://github.com/mitch-t</a></li>
+                  <hr/>
+                <li><strong>LinkedIn</strong> <a href="http://www.linkedin.com/in/thomas-mitchell-5a84223a">Thomas Mitchell</a></li>
+              </ul>
+              <button onclick="window.location.href='samples.html'"
+              class="waves-effect waves-light btn-large">
+              MY WORK</button>
             
-          
-          </div>
-
-         <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-       </div>
-
-       <div class="container">
-
-        <div class= "row">
-   <!-- Section 1: Bio -->
-   <div class="col s12 m12 l12">
-       
-    <!--Pro background-->
-    <h2 class="center">My Work</h2>
-            <hr/>
+            </div>
             
-           <a href="samples.html"id="link" target="_blank">
-            <img src="assets/work.png" alt="website homepage screenshot" width="90%" height="65%"></a>
-          </div>
-
-          <div class="col s12 m3 l1">
-          <div class= "col1">
-            <h2 class="center">Contact Info</h2><ul>
-                <hr/>
-            <li><strong>Cell Number:</strong></br>(951) 710-7189</li>
-            <hr/>
-          <li><strong>Email:</strong> <a href="mailto:mitcht032@gmail.com">mitcht032@gmail.com</a></li>
-            <hr/>
-          <li><strong>Github:</strong> <a href="https://github.com/mitch-t">https://github.com/mitch-t</a></li>
-          <hr/>
-        <li><strong>LinkedIn</strong> <a href="http://www.linkedin.com/in/thomas-mitchell-5a84223a">Thomas Mitchell</a></li>
-      </ul>
-          </div>
-      </div>    
+                  </div>
+              </div>   
+                        <hr>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+   
 </body>
 
 </html>
